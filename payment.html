@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/payment.css">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Payment</title>
+</head>
+<body>
+    <main>
+        <!--Header-->
+        <header>
+            <div class="nav-bar">
+                <a href="index.html"><img src="/assests/images/logo.png" alt="logo" style="width:60px ;height:60px;position:static;" /></a>
+                <div class="login">
+                    <div class="container">
+                        
+                        <button type="button" class="btn btn-light btn-sm" data-toggle="modal" data-target="#myModal">Login</button>
+                    
+                </div>
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog"  role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Please Login</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              
+                            </div>
+                            <div class="modal-body">
+                                <form class="modal-form" action="/" method="GET">
+                                    <div class="form-group row modal-inputs">
+                                        <label for="staticEmail" class="col-sm-2 col-form-label">Username:</label>
+                                        <div class="col-sm-10">
+                                          <input type="text"  class="form-control modal-inputs" id="inputUsername"  placeholder="Enter Username">
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                        <div class="col-sm-10">
+                                          <input type="password" class="form-control modal-inputs" id="inputPassword" placeholder="Enter Password">
+                                        </div>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" class="btn btn-primary" data-target="index.html">Submit</button>
+                                            </div>
+                                      </div>
+                                    
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </header>
+        <!--Content-->
+        <div class="content1">
+            <div class="radison grid-container1">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="width: 300px; height: 270px;"/>
+                    <div class="item4" style="margin-top: 10%;margin-bottom:0%;">
+                        <h3>Radisson Blu Hotel</h3>
+                        <p>#38 of 1,289 hotels in New Delhi</p>
+                        <p>National Highway 8, New Delhi 110017 India</p>
+                    </div>
+                    
+                </div>
+                <div class="grid-container">
+                   
+                    <div class="info item1">
+                    <p><b style="font-family: cursive;">Name:</b>John Doe</p>
+                    <p><b style="font-family: cursive;">Number of Adults:</b>2</p>
+                    <p><b style="font-family: cursive;">Check-in Date:</b>06/06/2020</p>
+                    <p><b style="font-family: cursive;">Check-out Date:</b> 08/06/2020</p>
+                    </div>
+                    
+                    <div class="tariff item2" style="position: center;padding-top:10%;">
+                        <p><b style="font-family: cursive;">Tariff Breakdown:</b> Rs 1000x 2 Adults x 5 Nights</p>
+                    
+                    <p><b style="font-family: cursive;">Total Amount:</b>Rs 10000</p>
+                    </div>
+                    
+                    <div class="item3" style="position: center;padding-top: 40%;margin-left:29%;">
+                        <button type="button" class="btn btn-success">Pay Now</button>
+                    </div>
+                    
+                    
+                
+                </div>
+        </div>
+        <!--Footer-->
+        <footer>
+            <div class="nav-bar">
+                <div class="footer-content">
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal1">Contact us</button>
+        
+          <!-- Modal -->
+          <div class="modal" id="myModal1" role="dialog" tabindex="-1" >
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Get in touch</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                  
+                </div>
+                <div class="modal-body">
+                  <p>Thank you for reaching out us.</p>
+                  <p>Please enter your email and we will get bact to you soon.</p>
+                  <form action="/" method="GET">
+                    Email: <input type="email" placeholder="Enter your email id" name="email" required autocomplete="off"><br>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+                </div>
+               <div>
+                <p style="padding-top: 9%;font-size:13px;">&copy; 2020 ROOM SEARCH PVT.LTD</p>
+               </div>
+                    
+                
+                <div class="social footer-content ">
+                <a href="https://www.facebook.com/" target="_blank"><img src="assests/images/facebook.png" style="height: 20px; width: 22px;"/></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="assests/images/instagram.png" style="height: 20px; width: 22px;"/></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="assests/images/twitter.png" style="height: 20px; width: 22px;"/></a><br/>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>

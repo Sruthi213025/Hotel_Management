@@ -1,0 +1,76 @@
+header{
+    background-color: rosybrown;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+}
+footer{
+    background-color: rosybrown;
+    position: fixed;
+    bottom: 0;
+    left: 0;  
+    width: 100%;
+
+}
+.footer-content{
+    display: inline;
+    overflow: hidden;
+    margin: 12px 20px 2px 0px;
+}
+.login{
+    text-align: center;
+    margin:0 20px 0 0;
+    float: right; 
+    padding:20px;
+    
+}
+body{
+    margin: 0%;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    background-color: #e0e0e0;
+    
+}
+.hotel{
+    background-color: rgb(132,136,139);
+    margin: 4%;
+    width: 40%;
+   
+}
+
+#listview{
+    display: flex;
+    flex-wrap: wrap; 
+}
+#mapview{
+    margin-top: 0%;
+}
+.link{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+main > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+    padding-top: 30px;
+}
+
+.hotel:hover{
+    background-color: rosybrown;
+}
