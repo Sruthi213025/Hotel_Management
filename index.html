@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/index.css">
     <link rel="stylesheet" href="/styles/common.css">
+    <script src="/scripts/index.js">
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -74,15 +76,27 @@
             <div class="city">
                 <div class="city1">
                     <div><a href="list.html"><img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="delhi" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></a></div>
-                    <div><img  class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="goa" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></div>
-                    <div><img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="hyderabad" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></div>
-                    <div><img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="kolkata" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></div>
-                </div>
+                    <div><a href="list.html"><img  class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="goa" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></a></div>
+                    <div><a href="list.html"><img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="hyderabad" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></a></div>
+                    <div><a href="list.html"><img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="kolkata" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></a></div><br/>
+                    </div><span id="dots"></span>
+                    <div id="more">
+                      <div class="city2" >
+                        <span ></span>
+                        <div><a href="list.html"><img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg" alt="chennai" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></a></div>
+                        <div><a href="list.html"><img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg" alt="agra" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></a></div>
+                        <div><a href="list.html"><img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg" alt="jaipur" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></a></div>
+                        <div><a href="list.html"><img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg" alt="bengaluru" style="width:150px ;height:150px;border-radius: 25%;box-shadow:10px 10px 10px grey" /></a></div>
+                    
+                      </div>
+                    </div>
+                
                 <div class="view-more">
-                    <a href="#" style="text-decoration: none;color:black"><button type="button" class="btn btn-secondary">View More </button></a>
+                    <a href="#" style="text-decoration: none;color:black"><button type="button" class="btn btn-secondary" onclick="myFunction()" id="myBtn">View More </button></a>
                 </div>
             </div>
         </div>
+        
         <!--Footer-->
     <footer>
         <div class="nav-bar">
